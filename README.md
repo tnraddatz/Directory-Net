@@ -13,3 +13,5 @@ The Directory Application will be used as a learning tool to develop my skills a
 8) ... 
 
 
+## Java Web Token Authentication
+Once the user is logged in, each subsequent request will include the JWT, allowing the user to access routes, services, and resources that are permitted with that token. The application uses JWT for single sign-on because of its small overhead and its ability to be easily used across different domains.
