@@ -83,7 +83,7 @@ namespace DirectoryNet.Controllers
             //Create the JWT token, which will be returned to client
             var token = tokenHandler.CreateToken(tokenDescriptor);
             
-            //Return token as an object
+            //Return token as an object, You can check this token in postman and jwt.io
             return Ok(new {
                 token = tokenHandler.WriteToken(token)
             });
