@@ -64,6 +64,8 @@ namespace DirectoryNet.Controllers
             //Start the signing process - To ensure the server knows the token is legitimate
             
             //Secret Key From Application
+            //Sever will use this to make sure that the information is correct. We let the client
+            //decrypt the payload, but we verify it on the server
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config
                 .GetSection("AppSettings:Token").Value));
                 
