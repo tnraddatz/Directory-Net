@@ -53,18 +53,22 @@ namespace DirectoryNet.Controllers
 
             if (userFromRepo == null)
                 return Unauthorized();
-
+            
+            //Begin Building up the JWT token
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, userFromRepo.Id.ToString()),
                 new Claim(ClaimTypes.Name, userFromRepo.Username)
             };
-
+            
+            //Secret Key From Application
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config
                 .GetSection("AppSettings:Token").Value));
-
+                
+            //Takes our security key and will use an algorithm to hash that key
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
-
+            
+            //Add claims, expirey date, and signing credentials
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
@@ -73,9 +77,11 @@ namespace DirectoryNet.Controllers
             };
 
             var tokenHandler = new JwtSecurityTokenHandler();
-
+            
+            //Create the JWT token, which will be returned to client
             var token = tokenHandler.CreateToken(tokenDescriptor);
-
+            
+            //Return token as an object
             return Ok(new {
                 token = tokenHandler.WriteToken(token)
             });
