@@ -61,6 +61,8 @@ namespace DirectoryNet.Controllers
                 new Claim(ClaimTypes.Name, userFromRepo.Username)
             };
             
+            //Start the signing process - To ensure the server knows the token is legitimate
+            
             //Secret Key From Application
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config
                 .GetSection("AppSettings:Token").Value));
