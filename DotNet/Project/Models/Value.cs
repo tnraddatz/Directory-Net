@@ -9,7 +9,7 @@ namespace DirectoryNet.Models
     {
         //Set the columns of the Value Table
         public int Id { get; set; } 
-        public string MyProperty { get; set; }
+        public string Name { get; set; }
 
     }
 }

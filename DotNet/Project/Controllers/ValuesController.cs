@@ -24,6 +24,7 @@ namespace DirectoryNet.Controllers
 
         // GET api/values
         //Async Tasks
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {

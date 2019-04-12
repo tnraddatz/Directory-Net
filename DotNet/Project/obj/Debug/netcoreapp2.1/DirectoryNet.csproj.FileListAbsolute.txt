@@ -1,0 +1,14 @@
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\bin\Debug\netcoreapp2.1\DirectoryNet.deps.json
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\bin\Debug\netcoreapp2.1\DirectoryNet.runtimeconfig.json
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\bin\Debug\netcoreapp2.1\DirectoryNet.runtimeconfig.dev.json
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\bin\Debug\netcoreapp2.1\DirectoryNet.dll
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\bin\Debug\netcoreapp2.1\DirectoryNet.pdb
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.csprojAssemblyReference.cache
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.csproj.CoreCompileInputs.cache
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.RazorAssemblyInfo.cache
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.RazorAssemblyInfo.cs
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.AssemblyInfoInputs.cache
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.AssemblyInfo.cs
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.RazorTargetAssemblyInfo.cache
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.dll
+C:\Users\radda\source\repos\Directory-Net\DotNet\Project\obj\Debug\netcoreapp2.1\DirectoryNet.pdb
