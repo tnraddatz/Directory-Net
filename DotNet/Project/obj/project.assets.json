@@ -12873,23 +12873,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\radda\\.nuget\\packages\\": {},
+    "C:\\Users\\TRADDATZ\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radda\\source\\repos\\Directory-Net\\DotNet\\Project\\DirectoryNet.csproj",
+      "projectUniqueName": "C:\\Users\\TRADDATZ\\Documents\\code\\Directory-Net\\DotNet\\Project\\DirectoryNet.csproj",
       "projectName": "DirectoryNet",
-      "projectPath": "C:\\Users\\radda\\source\\repos\\Directory-Net\\DotNet\\Project\\DirectoryNet.csproj",
-      "packagesPath": "C:\\Users\\radda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radda\\source\\repos\\Directory-Net\\DotNet\\Project\\obj\\",
+      "projectPath": "C:\\Users\\TRADDATZ\\Documents\\code\\Directory-Net\\DotNet\\Project\\DirectoryNet.csproj",
+      "packagesPath": "C:\\Users\\TRADDATZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TRADDATZ\\Documents\\code\\Directory-Net\\DotNet\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\radda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TRADDATZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
